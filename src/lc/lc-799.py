@@ -13,6 +13,6 @@ class Solution:
                     currRow[j + 1] += less
             prevRow = currRow
         return min(1, prevRow[query_glass]) # 杯子的容量最多为 1
-         
+
 s = Solution()
-s.champagneTower(1, 1, 1)           
+s.champagneTower(1, 1, 1)
