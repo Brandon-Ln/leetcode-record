@@ -8,5 +8,3 @@ class Solution:
             if letter.lower() in letterSet and letter.lower() != letter and letter > res:
                 res = letter
         return res
-
-        
