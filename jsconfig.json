@@ -3,6 +3,7 @@
         "./src"
     ],
     "compilerOptions": {
+        "lib": ["ESNext"],
         "isolatedModules": true,
         "strict": true,
         "module": "ESNext"
